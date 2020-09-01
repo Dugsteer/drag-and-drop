@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Drop</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class= "container">
+        <div class="title">
+            <h1 class="head">DRAG AND DROP</h1>
+            <div class="flex">
+            <div class="text">
+                <p class="q" >1. John is interested <span class="c" id="span1" ondrop="drop(event)" ondragover="allowDrop(event)"> bd</span> football. </span><span id="tick1">✓</span><span id="cross1">✗</span></p>
+                <p class="q">2. Jayne is keen <span class="c" id="span2" ondrop="drop(event)" ondragover="allowDrop(event)"> bd</span> playing tennis. </span><span id="tick2">✓</span><span id="cross2">✗</span></p>
+                <p class="q">3. Mary is afraid <span class="c"  id="span3" ondrop="drop(event)" ondragover="allowDrop(event)"> bd</span> spiders and such. </span><span id="tick3">✓</span><span id="cross3">✗</span></p>
+                <p class="q">4. Quentin is proud <span class="c" id="span4" ondrop="drop(event)" ondragover="allowDrop(event)"> bd</span> his achievements. </span><span id="tick4">✓</span><span id="cross4">✗</span></p>
+            </div>
+             <div class="drags">
+                 <div class="textbox">                <p id="drag1" class="p" draggable="true" ondragstart="drag(event)">on</p>
+                 </div>
+                 <div class="textbox">                <p id="drag2" class="p" draggable="true" ondragstart="drag(event)">of</p>
+                 </div>
+                 <div class="textbox">                <p id="drag3" class="p" draggable="true" ondragstart="drag(event)">in</p>
+                 </div>
+                 <div class="textbox">                <p id="drag4" class="p" draggable="true" ondragstart="drag(event)">of</p>
+                 </div>
+            </div>
+        </div>
+        </div>
+
+
+        <button class="button1" onclick="checkEm()" style="display: block;";>Check</button>
+        <button class="button2" onclick="window.location.reload()" style="display: block;";>Try Again</button>
+
+
+    </div>
+
+    <script src = "scripts.js"></script>
+</body>
+</html>

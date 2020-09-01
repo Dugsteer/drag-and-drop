@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(136, 189, 136);
+    font-family: Lato;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: Lato;
+    width: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.flex {
+    display: flex;
+    width: 800px;
+    height: 60%;
+    margin: auto;
+}
+
+.text {
+    /* background-color: rgb(240, 111, 111); */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+.drags {
+    /* background-color: rgb(162, 162, 226); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+    width: 30%;
+}
+
+.c {
+    display: inline-flex;
+    border: 1px solid black;
+    background: white;
+    padding: 0 4px 0 4px;
+    width: 40px;
+    height: 30px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+}
+
+.textbox {
+    display: flex;
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    background: white;
+    padding: 0 4px 0 4px;
+    margin-left: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tick1,
+#tick2,
+#tick3,
+#tick4
+ {
+    display: none;
+    font-size: 1.4rem;
+}
+
+#cross1,
+#cross2,
+#cross3,
+#cross4
+{
+    display: none;
+    font-size: 1.4rem;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: wheat;
+
+}
+
+.button2 {
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: wheat;
+
+}
+
